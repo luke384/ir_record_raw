@@ -1,0 +1,13 @@
+App(
+    appid="ir_raw_recorder",
+    name="IR RAW Recorder",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ir_raw_recorder_app",
+    requires=["gui", "dialogs", "storage", "notification"],
+    stack_size=4 * 1024,
+    fap_category="Infrared",
+    fap_icon="ir_raw_10px.png",
+    fap_version="1.0",
+    fap_description="Record raw infrared signals continuously (like Sub-GHz Read RAW), save them and replay them.",
+    fap_author="you",
+)
